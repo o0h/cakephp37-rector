@@ -3,8 +3,8 @@
     "description": "Auto fixer for CakePHP Fixtures import declaration to migrate CakePHP 3.7.x.",
     "type": "library",
     "require": {
-       "php": "^7.1",
-        "rector/rector": "^0.3.37",
+        "php": "^7.1",
+        "rector/rector": "^0.4",
         "cakephp/utility": "^3.7"
     },
     "autoload": {
