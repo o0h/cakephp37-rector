@@ -37,8 +37,8 @@ CODE_SAMPLE
 class SomeTest
 {
     protected $fixtures = [
-         'App.Posts',
-         'App.Users',
+         'app.Posts',
+         'app.Users',
          'SomePlugin.Posts/DeletedPosts',
     ];
 CODE_SAMPLE
@@ -83,7 +83,7 @@ CODE_SAMPLE
                         explode('/', $table)
                     );
                     $table = implode('/', $table);
-                    $newValue = inflector::camelize($prefix) . '.' . $table;
+                    $newValue = $prefix . '.' . $table;
                     $item->value = new Node\Scalar\String_($newValue, $item->value->getAttributes());
                 }
             }
