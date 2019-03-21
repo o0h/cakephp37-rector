@@ -6,6 +6,7 @@ class ClassImportingFixturesWithSnakeCasedName
 {
     protected $fixtures = [
         'app.users',
+        'App.tags',
         'plugin.posts',
         'plugin.messages/deleted_messages',
     ];
@@ -21,6 +22,7 @@ class ClassImportingFixturesWithSnakeCasedName
 {
     protected $fixtures = [
         'app.Users',
+        'app.Tags',
         'plugin.Posts',
         'plugin.Messages/DeletedMessages',
     ];

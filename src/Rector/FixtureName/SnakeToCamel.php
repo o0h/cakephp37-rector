@@ -83,7 +83,7 @@ CODE_SAMPLE
                         explode('/', $table)
                     );
                     $table = implode('/', $table);
-                    $newValue = $prefix . '.' . $table;
+                    $newValue = Inflector::variable($prefix) . '.' . $table;
                     $item->value = new Node\Scalar\String_($newValue, $item->value->getAttributes());
                 }
             }
