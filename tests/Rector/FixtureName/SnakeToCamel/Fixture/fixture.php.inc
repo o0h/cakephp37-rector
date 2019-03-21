@@ -20,9 +20,9 @@ namespace O0h\RectorCakePHP37FixtureImport\Tests\Rector\FixtureName\SnakeToCamel
 class ClassImportingFixturesWithSnakeCasedName
 {
     protected $fixtures = [
-        'App.Users',
-        'Plugin.Posts',
-        'Plugin.Messages/DeletedMessages',
+        'app.Users',
+        'plugin.Posts',
+        'plugin.Messages/DeletedMessages',
     ];
 }
 
